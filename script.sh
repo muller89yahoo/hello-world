@@ -1,2 +1,3 @@
 #!/bin/bash
-date >> /home/ubuntu/script_date
+date="`date`"; 
+echo "last build: $date" >> /home/ubuntu/script_output;
